@@ -1,0 +1,27 @@
+.caixa1 {
+    background-color: blue;
+    color: white;
+}
+
+.caixa2 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(15, 150, 80);
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-style:italic;
+    font-weight: bold;
+}
+
+.caixa3 {
+    background-color: rgb(255,200,0);
+    color: rgb(255, 255, 255);
+}
+
+.caixa4 {
+    background-color: #ff00c8;
+    color: #ddff00;
+}
+
+.caixa5 {
+    background-color: #ddff00;
+}
