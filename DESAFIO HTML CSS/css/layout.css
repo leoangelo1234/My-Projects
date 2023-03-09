@@ -1,0 +1,47 @@
+.layout-cabecalho {
+    height: 60px;
+    border-bottom: 2px solid #ccc;
+    line-height: 60px; /* o tamanho da linha é igual ao tamanho do elemento (height), então as coisas vão ficar centralizadas */
+    background-color: #fff;
+}
+
+.layout-cabecalho--home {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.layout-planos {
+    padding: 80px 0;
+}
+
+@media(max-width:749px) {
+    .layout-planos .row > div:not(.ultima-coluna) {
+        margin-bottom: 40px;
+    }
+}
+
+.layout-chamada {
+    margin-top: 60px;
+    padding: 80px;
+
+    background-color: #7ab55c;
+}
+
+.layout-depoimento {
+    padding: 80px 0;
+    background-color: #e7e7e7;
+}
+
+.layout-rodape {
+    padding: 40px 0;
+
+    background-color: #484848;
+
+    color: #fff;
+    text-align: center;
+}
